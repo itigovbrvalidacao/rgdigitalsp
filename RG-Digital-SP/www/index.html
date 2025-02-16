@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Carteira</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+<body>
+
+<div class="container mt-3">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="fs-5"></span>
+        <span class="fs-5"></span>
+    </div>
+
+    <strong><h5 class="text-center my-3 position-relative">Minha Carteira</h5></strong>
+    <hr class="w-100">
+
+    <div class="card shadow-sm mt-4">
+        <a href="rg.html">
+            <div class="card-body rg-info">
+                <strong><h6 class="fw-bold">RG DIGITAL - SÃO PAULO</h6></strong>
+                <p class="mb-1 text-secondary">ENZO OLIVEIRA GALDINO LIMA</p>
+                <p class="mb-0">
+                    <img src="img/Bandeira_do_estado_de_São_Paulo.jpg" alt="SP" width="20" class="me-2">
+                    53.817.288-5
+                </p>
+            </div>
+        </a>
+    </div>
+
+    <nav class="navbar fixed-bottom">
+        <div class="container d-flex justify-content-around gap-4">
+            <div class="text-center">
+                <i class="bi bi-wallet icon-inicio fs-4" style="color: #123661 !important;"></i>
+                <p class="small mb-0">Início</p>
+            </div>
+            <div class="text-center">
+                <i class="bi bi-plus-circle text-secondary fs-4"></i>
+                <p class="small mb-0">Novo</p>
+            </div>
+            <div class="text-center">
+                <i class="bi bi-hand-index-thumb fs-4"></i>
+                <p class="small mb-0">Serviços</p>
+            </div>
+            <div class="text-center">
+                <i class="bi bi-sliders fs-4"></i>
+                <p class="small mb-0">Opções</p>
+            </div>
+        </div>
+    </nav>
+    
+    
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./js/index.js"></script>
+<script>
+    document.addEventListener('deviceready', function () {
+        console.log('Cordova está pronto!');
+    }, false);
+</script>
+</body>
+</html>
